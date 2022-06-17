@@ -1,0 +1,134 @@
+body {
+    display: flexbox;
+    display: fixed;
+    background-image: url(image.jpg);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    flex-direction: column-reverse;
+ 
+}
+
+.body{
+    position: absolute;
+    left: 280px;
+}
+
+
+/*-------------------------------HEARDER------------------------------------------*/
+
+.hearder {
+    border: 0;
+    position: absolute;
+    width: 850px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flexbox;
+    left: 265px;
+    border-radius: 15px;
+    color: white;
+}
+
+.hearder .name {
+    position: absolute;
+    font-size: 46px;
+    top: 10px;
+    left: 28px;
+}
+
+.hearder .carrier {
+    position: absolute;
+    top: 10px;
+    left: 608px;
+}
+
+
+/*-------------------------------infor------------------------------------------*/
+
+.box .box-infor {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 203px;
+    height: 400px;
+    top: 355px;
+    left: 270px;
+    font-size: 12px;
+    border-radius: 16px;
+    border: 0px;
+}
+
+.box .box_code_skill {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 203px;
+    height: 250px;
+    left: 270px;
+    top: 780px;
+    border: 0px;
+    border-radius: 15px;
+}
+
+.box .box_favourite {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 203px;
+    height: 350px;
+    left: 270px;
+    top: 1037px;
+    border: 0;
+    border-radius: 15px;
+}
+
+
+/*---------------------------Main-----------------------------*/
+
+.box,
+.main {
+    color: white
+}
+
+.main .main_class1 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 580px;
+    width: 635px;
+    left: 480px;
+    top: 90px;
+    border: 0ch;
+    border-radius: 15px;
+}
+
+.main .main_class2 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 300px;
+    width: 635px;
+    left: 480px;
+    top: 673px;
+    border: 0ch;
+    border-radius: 15px;
+}
+
+.main .main_class3 {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 400px;
+    width: 635px;
+    left: 480px;
+    top: 985px;
+    border: 0ch;
+    border-radius: 15px;
+}
+
+.class2 {
+    position: absolute;
+    left: 75px;
+    bottom: 150px;
+}
+
+
+@media only screen and (min-width:1600px) and (max-width:1920px){
+    body{
+        position:absolute;
+        left:145px;
+    }
+}
